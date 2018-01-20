@@ -23,7 +23,7 @@ function viewCart() {
     console.log (`Your shopping cart is empty.`)
   }else if(cart.length===1){
     for(var i=0; i<cart.length; i++)
-    console.log(`In your cart, ${cart[i]} you have  at ${cart.i}.`)
+    console.log(`In your cart, ${cart{i]} you have  at ${cart.i}.`)
   }else if (cart.length===2){
     for (i=0; i<cart.length; i++)
     console.log(`In your cart, you have ${Object.keys(cart)} at $${Object.entries(cart)} and ${Object.keys(cart)} at ${Object.values(cart)}`)
